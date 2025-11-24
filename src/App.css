@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* .logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+} */
+
+a{
+
+  font-weight: bold;
+
+  text-decoration: none;
+}
+/* a:hover {
+                  background-color: #fff;
+                  text-transform: translateY(-15px);
+                } */
+
+.btn{
+  font-weight: bolder;
+  text-decoration: none;
+
+}
+/* WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 10px;           
+  height: 10px;              
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;   
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+  border: 2px solid transparent; 
+  background-clip: padding-box;  
+}
+
+/* Thumb hover/focus */
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: rgba(100, 100, 100, 0.75);
+}
+
+/* Firefox: uses different properties */
+* {
+  scrollbar-width: thin; /* auto | thin | none */
+  scrollbar-color: rgba(100,100,100,0.5) transparent; /* thumb color, track color */
+}
+
+
+
+@keyframes logo-spin {
+  10%{
+    transform: rotateY(0deg);
+    transform: "scale(1)"
+  }
+  50% {
+    transform: rotateY(360deg);
+    transform: "scale(1.7)"
+  }
+    100% {
+      transform: rotateY(0deg);
+      transform: "scale(1)"
+    }
+}
+
+ @keyframes fadeInUp {
+   0% {
+     opacity: 0;
+     transform: translateY(40px);
+   }
+
+   100% {
+     opacity: 1;
+     transform: translateY(0);
+   }
+ }
+
+ @keyframes fadeInSkill {
+   to {
+   width: 85%;
+   }
+ }
+  @keyframes left {
+    to {
+      left: 280px;
+    }
+  }
+   @keyframes right {
+    to {
+      left: 220px;
+    }
+  }
